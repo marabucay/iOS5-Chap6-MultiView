@@ -1,0 +1,264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00B56A9817E199A7002F86CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B56A9717E199A7002F86CD /* UIKit.framework */; };
+		00B56A9A17E199A7002F86CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B56A9917E199A7002F86CD /* Foundation.framework */; };
+		00B56A9C17E199A7002F86CD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B56A9B17E199A7002F86CD /* CoreGraphics.framework */; };
+		00B56AA217E199A7002F86CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00B56AA017E199A7002F86CD /* InfoPlist.strings */; };
+		00B56AA417E199A7002F86CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B56AA317E199A7002F86CD /* main.m */; };
+		00B56AA817E199A7002F86CD /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B56AA717E199A7002F86CD /* BIDAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00B56A9317E199A7002F86CD /* View Switcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "View Switcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00B56A9717E199A7002F86CD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		00B56A9917E199A7002F86CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		00B56A9B17E199A7002F86CD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		00B56A9F17E199A7002F86CD /* View Switcher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "View Switcher-Info.plist"; sourceTree = "<group>"; };
+		00B56AA117E199A7002F86CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		00B56AA317E199A7002F86CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00B56AA517E199A7002F86CD /* View Switcher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "View Switcher-Prefix.pch"; sourceTree = "<group>"; };
+		00B56AA617E199A7002F86CD /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		00B56AA717E199A7002F86CD /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00B56A9017E199A7002F86CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00B56A9817E199A7002F86CD /* UIKit.framework in Frameworks */,
+				00B56A9A17E199A7002F86CD /* Foundation.framework in Frameworks */,
+				00B56A9C17E199A7002F86CD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00B56A8817E199A7002F86CD = {
+			isa = PBXGroup;
+			children = (
+				00B56A9D17E199A7002F86CD /* View Switcher */,
+				00B56A9617E199A7002F86CD /* Frameworks */,
+				00B56A9417E199A7002F86CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00B56A9417E199A7002F86CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00B56A9317E199A7002F86CD /* View Switcher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00B56A9617E199A7002F86CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00B56A9717E199A7002F86CD /* UIKit.framework */,
+				00B56A9917E199A7002F86CD /* Foundation.framework */,
+				00B56A9B17E199A7002F86CD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		00B56A9D17E199A7002F86CD /* View Switcher */ = {
+			isa = PBXGroup;
+			children = (
+				00B56AA617E199A7002F86CD /* BIDAppDelegate.h */,
+				00B56AA717E199A7002F86CD /* BIDAppDelegate.m */,
+				00B56A9E17E199A7002F86CD /* Supporting Files */,
+			);
+			path = "View Switcher";
+			sourceTree = "<group>";
+		};
+		00B56A9E17E199A7002F86CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00B56A9F17E199A7002F86CD /* View Switcher-Info.plist */,
+				00B56AA017E199A7002F86CD /* InfoPlist.strings */,
+				00B56AA317E199A7002F86CD /* main.m */,
+				00B56AA517E199A7002F86CD /* View Switcher-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00B56A9217E199A7002F86CD /* View Switcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00B56AAB17E199A7002F86CD /* Build configuration list for PBXNativeTarget "View Switcher" */;
+			buildPhases = (
+				00B56A8F17E199A7002F86CD /* Sources */,
+				00B56A9017E199A7002F86CD /* Frameworks */,
+				00B56A9117E199A7002F86CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "View Switcher";
+			productName = "View Switcher";
+			productReference = 00B56A9317E199A7002F86CD /* View Switcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00B56A8A17E199A7002F86CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 00B56A8D17E199A7002F86CD /* Build configuration list for PBXProject "View Switcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 00B56A8817E199A7002F86CD;
+			productRefGroup = 00B56A9417E199A7002F86CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00B56A9217E199A7002F86CD /* View Switcher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00B56A9117E199A7002F86CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00B56AA217E199A7002F86CD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00B56A8F17E199A7002F86CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00B56AA417E199A7002F86CD /* main.m in Sources */,
+				00B56AA817E199A7002F86CD /* BIDAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00B56AA017E199A7002F86CD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00B56AA117E199A7002F86CD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00B56AA917E199A7002F86CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		00B56AAA17E199A7002F86CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00B56AAC17E199A7002F86CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "View Switcher/View Switcher-Prefix.pch";
+				INFOPLIST_FILE = "View Switcher/View Switcher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		00B56AAD17E199A7002F86CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "View Switcher/View Switcher-Prefix.pch";
+				INFOPLIST_FILE = "View Switcher/View Switcher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00B56A8D17E199A7002F86CD /* Build configuration list for PBXProject "View Switcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00B56AA917E199A7002F86CD /* Debug */,
+				00B56AAA17E199A7002F86CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00B56AAB17E199A7002F86CD /* Build configuration list for PBXNativeTarget "View Switcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00B56AAC17E199A7002F86CD /* Debug */,
+				00B56AAD17E199A7002F86CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00B56A8A17E199A7002F86CD /* Project object */;
+}
