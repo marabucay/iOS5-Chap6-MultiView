@@ -10,6 +10,9 @@
 		0040B0A117E19CD10007F74B /* BIDSwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0040B0A017E19CD10007F74B /* BIDSwitchViewController.m */; };
 		0040B0A417E19CE70007F74B /* BIDBlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0040B0A317E19CE70007F74B /* BIDBlueViewController.m */; };
 		0040B0A717E19CF30007F74B /* BIDYellowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0040B0A617E19CF30007F74B /* BIDYellowViewController.m */; };
+		0040B0A917E19D980007F74B /* SwitchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0040B0A817E19D980007F74B /* SwitchView.xib */; };
+		0040B0AB17E19DC20007F74B /* BlueView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0040B0AA17E19DC20007F74B /* BlueView.xib */; };
+		0040B0AD17E19DDC0007F74B /* YellowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0040B0AC17E19DDC0007F74B /* YellowView.xib */; };
 		00B56A9817E199A7002F86CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B56A9717E199A7002F86CD /* UIKit.framework */; };
 		00B56A9A17E199A7002F86CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B56A9917E199A7002F86CD /* Foundation.framework */; };
 		00B56A9C17E199A7002F86CD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B56A9B17E199A7002F86CD /* CoreGraphics.framework */; };
@@ -25,6 +28,9 @@
 		0040B0A317E19CE70007F74B /* BIDBlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDBlueViewController.m; sourceTree = "<group>"; };
 		0040B0A517E19CF30007F74B /* BIDYellowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDYellowViewController.h; sourceTree = "<group>"; };
 		0040B0A617E19CF30007F74B /* BIDYellowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDYellowViewController.m; sourceTree = "<group>"; };
+		0040B0A817E19D980007F74B /* SwitchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwitchView.xib; sourceTree = "<group>"; };
+		0040B0AA17E19DC20007F74B /* BlueView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlueView.xib; sourceTree = "<group>"; };
+		0040B0AC17E19DDC0007F74B /* YellowView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YellowView.xib; sourceTree = "<group>"; };
 		00B56A9317E199A7002F86CD /* View Switcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "View Switcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00B56A9717E199A7002F86CD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		00B56A9917E199A7002F86CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -83,13 +89,16 @@
 			children = (
 				00B56AA617E199A7002F86CD /* BIDAppDelegate.h */,
 				00B56AA717E199A7002F86CD /* BIDAppDelegate.m */,
-				00B56A9E17E199A7002F86CD /* Supporting Files */,
 				0040B09F17E19CD10007F74B /* BIDSwitchViewController.h */,
 				0040B0A017E19CD10007F74B /* BIDSwitchViewController.m */,
 				0040B0A217E19CE70007F74B /* BIDBlueViewController.h */,
 				0040B0A517E19CF30007F74B /* BIDYellowViewController.h */,
 				0040B0A617E19CF30007F74B /* BIDYellowViewController.m */,
 				0040B0A317E19CE70007F74B /* BIDBlueViewController.m */,
+				00B56A9E17E199A7002F86CD /* Supporting Files */,
+				0040B0A817E19D980007F74B /* SwitchView.xib */,
+				0040B0AA17E19DC20007F74B /* BlueView.xib */,
+				0040B0AC17E19DDC0007F74B /* YellowView.xib */,
 			);
 			path = "View Switcher";
 			sourceTree = "<group>";
@@ -156,6 +165,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				00B56AA217E199A7002F86CD /* InfoPlist.strings in Resources */,
+				0040B0A917E19D980007F74B /* SwitchView.xib in Resources */,
+				0040B0AB17E19DC20007F74B /* BlueView.xib in Resources */,
+				0040B0AD17E19DDC0007F74B /* YellowView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
