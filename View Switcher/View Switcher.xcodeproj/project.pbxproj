@@ -95,10 +95,10 @@
 				0040B0A517E19CF30007F74B /* BIDYellowViewController.h */,
 				0040B0A617E19CF30007F74B /* BIDYellowViewController.m */,
 				0040B0A317E19CE70007F74B /* BIDBlueViewController.m */,
-				00B56A9E17E199A7002F86CD /* Supporting Files */,
 				0040B0A817E19D980007F74B /* SwitchView.xib */,
 				0040B0AA17E19DC20007F74B /* BlueView.xib */,
 				0040B0AC17E19DDC0007F74B /* YellowView.xib */,
+				00B56A9E17E199A7002F86CD /* Supporting Files */,
 			);
 			path = "View Switcher";
 			sourceTree = "<group>";
